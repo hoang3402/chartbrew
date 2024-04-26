@@ -9,3 +9,4 @@ RUN npm run prepareSettings
 EXPOSE 4019
 
 ENTRYPOINT ["./entrypoint.sh"]
+
