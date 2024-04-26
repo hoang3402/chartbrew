@@ -1,7 +1,7 @@
 FROM node:20-slim
 
 WORKDIR /code
-COPY /server .
+COPY . .
 
 RUN cd server && npm install
 
